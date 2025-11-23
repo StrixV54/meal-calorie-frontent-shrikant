@@ -2,6 +2,8 @@
 
 A Next.js app for tracking meal calories using the USDA FoodData Central API.
 
+Live Link: https://meal-calorie-frontent-shrikant.vercel.app/
+
 ## Features
 
 - User registration and authentication

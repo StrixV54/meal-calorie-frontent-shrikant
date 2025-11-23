@@ -14,9 +14,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <ClientWrapper redirectIfAuth>
-      <div
-       className="flex-1 h-[calc(100vh-128px)] bg-cover bg-center bg-no-repeat bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.7)),url('https://images.unsplash.com/photo-1648421714382-70d47442b354?q=80')] dark:bg-[linear-gradient(0deg,rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url('https://images.unsplash.com/photo-1648421714382-70d47442b354?q=80')]"
-      >
+      <div className="overflow-y-auto flex-1 w-full h-full">
         <div className="container px-4 mx-auto">
           <section className="flex flex-col items-center justify-center py-20 md:py-28">
             <div className="max-w-3xl text-center">

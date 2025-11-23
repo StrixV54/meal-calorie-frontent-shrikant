@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default async function LoginPage() {
   return (
     <ClientWrapper redirectIfAuth>
-      <div className="flex items-center w-full justify-center p-4 md:p-0 h-[calc(100vh-128px)] bg-cover bg-center bg-no-repeat bg-[linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.7)),url('https://images.unsplash.com/photo-1648421714382-70d47442b354?q=80')] dark:bg-[linear-gradient(0deg,rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url('https://images.unsplash.com/photo-1648421714382-70d47442b354?q=80')]">
+      <div className="flex items-center w-full justify-center p-4 md:p-0 h-full">
         <AuthForm mode="login" />
       </div>
     </ClientWrapper>

@@ -40,7 +40,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex min-h-screen flex-col">
+          <div className="flex min-h-screen flex-col border-0 bg-muted dark:bg-background">
             <Header />
             <main className="flex-1 flex items-center justify-center">{children}</main>
             <Footer />

@@ -24,12 +24,12 @@ export function Header() {
   const isHomePage = pathname === "/";
 
   return (
-    <header className="border-b">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4">
+    <header className="border-b bg-theme-gradient">
+      <div className="container mx-auto flex h-17 items-center justify-between px-4">
         <Link href={isAuthenticated ? "/dashboard" : "/"}>
           <div className="flex items-center gap-2 cursor-pointer">
             <ChefHat className="h-6 w-6" />
-            <span className="text-xl font-bold">Meal Calorie Counter</span>
+            <span className="text-xl font-bold dark:text-white">Meal Calorie Counter</span>
           </div>
         </Link>
 

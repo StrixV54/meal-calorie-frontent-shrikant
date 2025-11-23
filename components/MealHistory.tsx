@@ -20,7 +20,7 @@ export function MealHistory() {
       <Card className="w-full">
         <CardHeader>
           <CardTitle>Recent Searches</CardTitle>
-          <CardDescription>Your search history</CardDescription>
+          <CardDescription className="mt-2">Your search history</CardDescription>
         </CardHeader>
         <CardContent>
           <p className="text-center text-muted-foreground py-8">
@@ -37,7 +37,7 @@ export function MealHistory() {
         <div className="flex items-center justify-between">
           <div>
             <CardTitle>Recent Searches</CardTitle>
-            <CardDescription>Your search history</CardDescription>
+            <CardDescription className="mt-2">Your search history</CardDescription>
           </div>
           <Button
             variant="outline"

@@ -40,9 +40,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex min-h-screen flex-col border-0 bg-muted dark:bg-background">
+          <div className="flex min-h-screen md:h-screen! overflow-hidden flex-col border-0 bg-muted dark:bg-background">
             <Header />
-            <main className="flex-1 flex items-center justify-center">{children}</main>
+            <main className="flex items-center justify-center md:h-[calc(100vh-128px)]">{children}</main>
             <Footer />
           </div>
         </ThemeProvider>

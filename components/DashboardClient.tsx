@@ -12,13 +12,13 @@ export function DashboardClient() {
   );
 
   return (
-    <div className="grid gap-6 lg:grid-cols-1">
-      <div className="space-y-6">
+    <div className="flex flex-col gap-6 w-full">
+      <div className="space-y-6 w-full max-w-2xl mx-auto">
         <MealForm onResult={setCurrentResult} />
         {currentResult && <ResultCard result={currentResult} />}
       </div>
 
-      <div>
+      <div className="w-full max-w-2xl mx-auto">
         <MealHistory />
       </div>
     </div>
